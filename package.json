@@ -1,0 +1,15 @@
+{
+  "name": "drone-stream",
+  "version": "0.0.1",
+  "description": "Play a rtsp stream in Circuit",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^5.0.2"
+  },
+  "dependencies": {
+    "circuit-sdk": "^1.2.5603"
+  }
+}

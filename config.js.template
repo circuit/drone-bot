@@ -1,0 +1,18 @@
+BOT_CONFIG = {
+    circuit: {
+        client_id: '...',
+        client_secret: '...',
+        domain: 'eu.yourcircuit.com',
+        scope: 'ALL'
+    },
+    kurento: {
+        ws_uri: 'wss://192.168.86.35:8433/kurento',
+        ice_servers: undefined
+    },
+    // Specify conversation IDs allowed to stream on. If empty all conversations are allowed
+    allowedConversations: [],
+    examples: [
+        'rtsp://192.168.86.34:8554/stream',
+        'rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov'
+    ]
+}
