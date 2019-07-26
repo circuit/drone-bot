@@ -10,6 +10,6 @@
     "electron": "^5.0.2"
   },
   "dependencies": {
-    "circuit-sdk": "^1.2.5603"
+    "circuit-sdk": "latest"
   }
 }
